@@ -1,0 +1,94 @@
+/*Datos Importantes
+https://developer.mozilla.org/es/docs/Web/CSS/transform*/
+body {
+    margin: 0%;
+    padding: 0%;
+    background: #EDEBD7;
+}
+
+.line {
+    width: 100%;
+    height: 300px;
+    background: #8E936D;
+    transform: skewY(-5deg);
+}
+
+.line .img{
+    position: absolute;
+    top: 18%;
+    right: 5%;
+    width: 180px;  
+    height: 180px;
+    border-radius: 100%;
+    transform: skewY(5deg);
+    overflow: hidden;
+}
+.line .img img{
+    width: 180px;
+    height: 320px;
+}
+
+.line .content {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 25%;
+}
+
+.line .content .p1{
+    color: #FFF8F0;
+    font-weight: bolder;
+    font-size: 55px;
+    transform: skewY(5deg);
+    margin-top: 16%;
+    margin-bottom: 7%;
+    margin-left: 15%;
+}
+
+.line .content .p2{
+    color: #FFF8F0;
+    font-size: 20px;
+    transform: skewY(5deg);
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 15%;
+}
+.perInfo{
+    width: 85%;
+    height: auto;
+    background: #8E936D;
+    margin:5% auto;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.perInfo .titul{
+    color: #FFF8F0;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 3px #FFF8F0 solid;
+}
+.perInfo .info{
+    color: #FFF8F0;
+    font-size: large;
+    font-weight: bolder;
+    display: inline;
+    margin-right: 1%;
+}
+
+.perInfo .InfoInfo{
+    color: #000000;
+    font-size: large;
+    font-weight: normal;
+    display: inline;
+}
+.piePag{
+    width: 98%;
+    height: 50px;
+    background: #8E936D;
+    padding: 15px;
+    border-radius: 20px;
+    color: #FFF8F0;
+    text-align: center;
+}
